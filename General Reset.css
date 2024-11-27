@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Experience */
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 1.8em;
+    color: #16a085;
+}
+
+.role {
+    font-weight: bold;
+}
+
+.dates {
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Education */
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    color: #16a085;
+}
+
+.education-item p {
+    color: #7f8c8d;
+}
+
+/* Skills and Languages */
+ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+ul li {
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
